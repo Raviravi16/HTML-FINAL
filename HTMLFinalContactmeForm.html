@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me Form</title>
+	<style>
+		.top{
+			padding : 20px ;
+			text-align: center;
+			margin-top: 0px;
+		}
+		.opt{
+			background-color: white;
+			padding: 12px;
+		}
+		.contact {
+			margin-right: auto;
+			margin-left: auto;
+			border: 2px solid black;
+			border-radius: 15px;
+			padding: 12px;
+			width: 50%;
+			background-color: lightblue;
+		}
+		.frominput{
+			margin-left: auto;
+			margin-right: auto;
+			width:100%;
+			font-size: 28px;
+			margin-top: 19px;
+			margin-bottom: 19px;
+			padding-top: 1px;
+			padding-bottom: 18px;
+			border-top:0;
+			border-left: 0;
+			border-right: 0;
+			border-bottom: 2px solid black;
+			background-color: lightblue;
+		}
+		textarea{
+			width: 100%;
+			font-size: 22px;
+		}
+		#complete{
+			background-color: grey;
+			color: white;
+			border: 2px solid black;
+			border-radius: 22px;
+			padding-left: 24px;
+			padding-right:24px;
+			padding-top:16px;
+			padding-bottom: 16px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body style="background-color: lightgrey">
+	<div class="top" style="background-color: lightblue">
+		<span class="opt">
+			<a href="HTMLFinal.html">Trips</a>
+		</span>
+		<span class="opt">
+			<a href="HTMLFinalAboutMe.html">About</a>
+		</span>
+		<span class="opt">
+			<a href="HTMLFinalContactForm.html">Contact Me</a>
+		</span>
+	</div>
+	<h1 style="text-align: center;">
+		Contact Me Form
+	</h1>
+
+	<form class="contact" method="GET">
+		<input class="frominput" type="text" name="name" placeholder="Name" autofocus required>
+		<input class="frominput" type="email" name="email" placeholder="E-Mail" required>
+		<input class="frominput" type="number" name="number" placeholder="Phone Number" required>
+		<input class="frominput" type="text" name="country" placeholder="Country"> 
+		<p style="font-size: 23px;margin-bottom: 0px">Comments : </p><br /><textarea rows="6" placeholder="Give us feedback..."></textarea>
+		<center><input type="submit" id="complete" value="submit!"></center>
+	</form>
+	<br><br><br>
+	<footer style="text-align: center;background-color: lightblue;font-size: 20px;padding: 14px">
+		Happy Journey..!
+		<br>
+	</footer>
+	<br />
+	<br />
+</body>
+</html>
